@@ -22,8 +22,7 @@
     tipi:
         int8/16/32/64_t
         uint8/16/32/64_t
-
-        Queste sono le lunghezze standard ma possono essere create variabili intere di qualsiasi lunghezza.
+    Queste sono le lunghezze standard ma possono essere create variabili intere di qualsiasi lunghezza.
 */
 
 // Intero a 64 bit in two's complement
