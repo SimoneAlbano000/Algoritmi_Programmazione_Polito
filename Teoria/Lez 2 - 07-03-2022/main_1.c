@@ -31,3 +31,20 @@ switch ( espressione da valutare) {
 
 */// --------------------------------
 
+// cicli:
+
+/* ciclo while: --------------
+
+while ( condizone vera ) {
+    codice;
+}
+
+*/// -------------------------
+
+/* ciclo for: ----------------
+
+for (int i = 0; i < n; i++) {
+    codice;
+}
+
+*/// -------------------------
