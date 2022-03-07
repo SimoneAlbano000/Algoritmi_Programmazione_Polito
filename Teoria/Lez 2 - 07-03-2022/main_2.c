@@ -1,3 +1,5 @@
+// Stampa triangolo rettangolo di lato n
+
 #include <stdio.h>
 
 int main() {
