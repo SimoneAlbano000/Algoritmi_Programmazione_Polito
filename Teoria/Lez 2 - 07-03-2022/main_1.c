@@ -33,18 +33,28 @@ switch ( espressione da valutare) {
 
 // cicli:
 
-/* ciclo while: --------------
+/* ciclo while / do-while: ----------
 
-while ( condizone vera ) {
-    codice;
-}
+while ( condizone vera ) { <--
+    codice;                  |
+}                      -------
 
-*/// -------------------------
+do {                                <--
+    codice eseguito almeno una volta; |
+} while ( condizione vera );     ------
 
-/* ciclo for: ----------------
+*/// --------------------------------
 
-for (int i = 0; i < n; i++) {
-    codice;
-}
+/* ciclo for: -----------------------
 
-*/// -------------------------
+for (int i = 0; i < n; i++) {  <--
+    codice;                      |
+}                           ------
+
+*/// --------------------------------
+
+
+// Istruzioni break; e continue; sono utilizzate 
+// rispettivamente per interrompere un ciclo indipendentemente
+// dalle iterazioni gia' fatte, e per terminare l'iterazione corrente
+// e saltare all'iterazione successiva del ciclo.
