@@ -35,6 +35,10 @@ int main() {
 
     // Stringhe
 
+    // Libreria per la gestione delle strighe
+
+    #include <string.h>
+
     //la dimensione non e' obbligatoria se viene inizializzata subito;
 
     char stringa[4] = "ciao"; // --> stringa
