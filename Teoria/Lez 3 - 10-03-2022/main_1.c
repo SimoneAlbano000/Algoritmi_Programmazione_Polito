@@ -63,6 +63,8 @@ int main() {
     // ad eccezione del fatto che non e' necessario specificare l'indirizzo di memoria con '&', poiche'
     // il nome della stringa rappresenta di perse' l'indirizzo di memoria stesso (del primo elemento dell'array)
     // scanf("%s", nome_stringa)
+    // La comodita' di usare la funzione scanf(), e che posso filtrare l'input utilizzando %s, 
+    // senza dover processare successivamente il testo inserito (a differenza della funzione gets())
 
     return 0;
 }
