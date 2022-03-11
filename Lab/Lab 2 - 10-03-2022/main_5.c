@@ -26,7 +26,14 @@ int main() {
         }
     }
 
-    // Da finire... manca solo la print
+    printf("duplicati = [");
+    for (int k = 0; k < MAX_LEN; k++) {
+        printf("%d", vettore_indici[k]);
+        if (k != MAX_LEN) {
+            printf(", ");
+        }
+    }
+    printf("] \n");
 
     return 0;
 }
