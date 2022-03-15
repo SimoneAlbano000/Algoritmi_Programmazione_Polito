@@ -1,0 +1,7 @@
+Algoritmo:
+    numero finito di step necessari per compiere un operazione e che puo' essere riutilizzato
+    senza dover riscrivere lo stesso codice n volte.
+
+Efficienza: 
+    capacita' di un algoritmo di compiere un'operazione utilizzando meno risorse
+    possibili sia in ambito computazionale, sia in ambito temporale.
