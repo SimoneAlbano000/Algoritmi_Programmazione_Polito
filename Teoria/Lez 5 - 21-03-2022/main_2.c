@@ -4,7 +4,7 @@
 #include <string.h>
 
 int isPrime(int);
-int char2int(char*, int);
+int char2uint(char*, int);
 int isTrncRight(char*);
 
 int main() {
@@ -34,7 +34,12 @@ int isPrime(int a) {
     }
 }
 
-int char2int(char *a, int digit) {
+int char2uint(char *a, int digit) {
+    // Controllo anti overflow
+    if (digit < 1 || digit > strlen(a)) {
+        printf("char2uint error - (int digit) out of boundaries");
+        return -1;
+    }
     // Ofset da sottrarre per ottenere il valore intero corrispondente
     const int ASCII_OFSET = 48;
     int exp = 1;
@@ -54,7 +59,7 @@ int char2int(char *a, int digit) {
 int isTrncRight(char *a) {
     int counter = 0;
     for (int i = 1; i <= strlen(a); i++) {
-        if (isPrime(char2int(a, i)) == 1) {
+        if (isPrime(char2uint(a, i)) == 1) {
             counter++;
         }
     }
