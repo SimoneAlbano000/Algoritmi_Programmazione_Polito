@@ -48,4 +48,16 @@ int main() {
     simone.anni = 19;
 
     */
+
+   // Utilizzando i puntatori, posso accedere a un valore di una struttura
+   // Dichiaro un puntatore a struttura, persona* p;
+   // Ora posso accedere ai valori della struttura utilizzando tale scrittura:
+   // (*p).nome = "Simone"
+   // Oppure, scrittura alternativa piu' comoda:
+   // p->nome = "Simone"
+
+   // Per incrementare un puntatore, in modo che punti al dato successivo posso scrivere in due modi:
+   // *(p + 1)
+   // opp
+   // p[1] proprio come se fosse un vettore (anche perche' un vettore e' un semplice puntatore che viene incrementato)
 }
