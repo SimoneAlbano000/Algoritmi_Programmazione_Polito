@@ -9,6 +9,7 @@
 // creo un nuovo tipo di variabile chiamato bit8
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 
